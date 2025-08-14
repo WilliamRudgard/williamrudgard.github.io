@@ -6,6 +6,5 @@ permalink: /teaching/EBSIPE-teaching-1
 venue: "University of Oxford"
 start_date: 2021-01-01
 end_date: 2025-01-01
-display_date: "2021–2024"
 location: "Oxford, United Kingdom"
 ---
