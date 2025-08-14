@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-UK"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : # ""
+title                    : "William Rudgard"
 title_separator          : "-"
-name                     : &name "William Rudgard"
+name                     : &name ""
 description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,10 +23,10 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "Profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Senior Postdoctoral Researcher"
   pronouns         : # example: "she/her"  
-  bio              : "Senior Postdoctoral Researcher at University of Oxford"
-  location         : "Earth"
+  bio              : "University of Oxford"
+  location         : "United Kingdom"
   employer         : "University of Oxford"
   uri              : # URL
   email            : "william.rudgard@spi.ox.ac.uk" 
