@@ -1,12 +1,10 @@
 ---
-title: "Paper Title Number 3"
+title: "Multiple Impacts of Ethiopia’s Health Extension Programme on Adolescent Health and Wellbeing: a Quasi-Experimental Study 2002-2013"
 collection: publications
 category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+date: 2022-09-01
+venue: 'Journal of Adolescent Health'
+paperurl: 'https://www.sciencedirect.com/science/article/pii/S1054139X22004189?via%3Dihub'
+citation: 'Rudgard WE, Dzumbunu SP, Yates R, Toska E, Stockl H, Hertzog L, Emaway D, Cluver LD (2022) Multiple Impacts of Ethiopia’s Health Extension Programme on Adolescent Health and Wellbeing: a Quasi-Experimental Study 2002-2013. Journal of Adolescent Health 2(71): https://doi.org/10.1016/j.jadohealth.2022.04.010'
 ---
