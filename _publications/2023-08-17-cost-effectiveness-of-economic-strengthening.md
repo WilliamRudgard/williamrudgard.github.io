@@ -2,7 +2,7 @@
 title: "Assessing the cost-effectiveness of economic strengthening and parenting support for preventing violence against adolescents in Mpumalanga Province, South Africa: An economic modelling study using non-randomised data"
 collection: publications
 category: manuscripts
-permalink: /publication/2023-08-17-paper-title-number-1
+permalink: /publication/2023-08-17-cost-effectiveness-of-economic-strengthening
 date: 2023-08-17
 venue: 'PLOS Global Public Health'
 paperurl: 'https://doi.org/10.1371/journal.pgph.0001666'
