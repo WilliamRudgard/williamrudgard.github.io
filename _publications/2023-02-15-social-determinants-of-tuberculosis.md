@@ -2,7 +2,7 @@
 title: "The social determinants of national tuberculosis incidence rates in 116 countries: a longitudinal ecological study between 2005–2015"
 collection: publications
 category: manuscripts
-permalink: /publication/2023-02-15-paper-title-number-4
+permalink: /publication/2023-02-15-social-determinants-of-tuberculosis
 date: 2023-02-15
 venue: 'BMC Public Health'
 paperurl: 'https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-023-15213-w'
