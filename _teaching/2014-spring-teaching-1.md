@@ -1,14 +1,12 @@
 ---
-title: "Teaching experience 1"
+title: "Social Determinants of Tuberculosis"
 collection: teaching
-type: "Undergraduate course"
+type: "MSc in International Health and Tropical Medicine"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
+venue: "University of Oxford"
+date: 2019-01-01
 location: "City, Country"
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
 
 Heading 1
 ======
