@@ -1,7 +1,7 @@
 ---
 title: "The social determinants of national tuberculosis incidence rates in 116 countries: a longitudinal ecological study between 2005–2015"
 collection: publications
-category: journal articles
+category: manuscripts
 permalink: /publication/2024-02-17-paper-title-number-4
 date: 2023-02-15
 venue: 'GitHub Journal of Bugs'
