@@ -2,7 +2,7 @@
 title: "Protective factors for adolescent sexual risk behaviours and experiences linked to HIV infection in South Africa: a three-wave longitudinal analysis of caregiving, education, food security, and social protection"
 collection: publications
 category: manuscripts
-permalink: /publication/2023-07-29-paper-title-number-2
+permalink: /publication/2023-07-29-hiv-infection-in-south-africa
 date: 2023-07-29
 venue: 'BMC Public Health'
 paperurl: 'https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-023-16373-5'
