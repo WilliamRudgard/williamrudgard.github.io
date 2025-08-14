@@ -1,14 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "Assessing the cost-effectiveness of economic strengthening and parenting support for preventing violence against adolescents in Mpumalanga Province, South Africa: An economic modelling study using non-randomised data"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2023
+venue: 'PLOS Global Public Health'
+paperurl: 'https://journals.plos.org/globalpublichealth/article/file?id=10.1371/journal.pgph.0001666&type=printable'
+citation: 'Rudgard WE, Obiesie S, Desmond C, Casale M, Cluver L (2023) Assessing the cost-effectiveness of economic strengthening and parenting support for preventing violence against adolescents in Mpumalanga Province, South Africa: An economic modelling study using non-randomised data. PLOS Glob Public Health 3(8): e0001666. https://doi.org/10.1371/journal.pgph.0001666'
 ---
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
