@@ -2,7 +2,7 @@
 title: "Multiple Impacts of Ethiopia’s Health Extension Programme on Adolescent Health and Wellbeing: a Quasi-Experimental Study 2002-2013"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: /publication/2022-09-01-paper-title-number-3
 date: 2022-09-01
 venue: 'Journal of Adolescent Health'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S1054139X22004189?via%3Dihub'
