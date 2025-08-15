@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Social Interventions for Global Health"
+title: "Advacning Social Interventions for Global Health"
 author_profile: true
 redirect_from: 
   - /about/
