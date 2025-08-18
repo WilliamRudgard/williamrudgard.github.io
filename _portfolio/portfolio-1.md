@@ -1,5 +1,5 @@
 ---
-title: "Portfolio item number 1"
+title: "Quantifying child climate risk and resilience across Africa"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/Portfolio 1.png'>"
 collection: portfolio
 ---
