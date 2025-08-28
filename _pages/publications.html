@@ -19,7 +19,7 @@ author_profile: true
   - First-authored: citation starts with "Rudgard WE"
   - Co-authored: everything else
   - Preserve existing citation hyperlinks
-  - Display OSF/GitHub links below each publication
+  - Display Download Paper / OSF / GitHub links on one line
 {% endcomment %}
 
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
@@ -41,38 +41,9 @@ author_profile: true
   {% for post in first_authored %}
     {% include archive-single.html %}
 
-    <!-- Additional links -->
-    {% if post.osfurl or post.githuburl %}
+    <!-- Links on one line -->
+    {% if post.paperurl or post.osfurl or post.githuburl %}
       <p>
-        {% if post.osfurl %}
-          <a href="{{ post.osfurl }}" target="_blank">OSF Page</a>
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" target="_blank">Download Paper</a>
         {% endif %}
-        {% if post.githuburl %}
-          {% if post.osfurl %} | {% endif %}
-          <a href="{{ post.githuburl }}" target="_blank">GitHub Analysis</a>
-        {% endif %}
-      </p>
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
-{% if co_authored.size > 0 %}
-  <h2>Co-authored publications</h2>
-  <hr />
-  {% for post in co_authored %}
-    {% include archive-single.html %}
-
-    <!-- Additional links -->
-    {% if post.osfurl or post.githuburl %}
-      <p>
-        {% if post.osfurl %}
-          <a href="{{ post.osfurl }}" target="_blank">OSF Page</a>
-        {% endif %}
-        {% if post.githuburl %}
-          {% if post.osfurl %} | {% endif %}
-          <a href="{{ post.githuburl }}" target="_blank">GitHub Analysis</a>
-        {% endif %}
-      </p>
-    {% endif %}
-  {% endfor %}
-{% endif %}
