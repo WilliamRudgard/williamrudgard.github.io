@@ -19,7 +19,6 @@ author_profile: true
   - First-authored: citation starts with "Rudgard WE"
   - Co-authored: everything else
   - Preserve existing citation hyperlinks
-  - Display OSF / GitHub links on one line (exclude Download Paper)
 {% endcomment %}
 
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
@@ -40,19 +39,6 @@ author_profile: true
   <hr />
   {% for post in first_authored %}
     {% include archive-single.html %}
-
-    <!-- Links on one line (exclude Download Paper, keep OSF/GitHub) -->
-    {% if post.osfurl or post.githuburl %}
-      <p>
-        {% if post.osfurl %}
-          <a href="{{ post.osfurl }}" target="_blank">OSF Page</a>
-        {% endif %}
-        {% if post.githuburl %}
-          {% if post.osfurl %}&nbsp;&nbsp;&nbsp;{% endif %}
-          <a href="{{ post.githuburl }}" target="_blank">GitHub Analysis</a>
-        {% endif %}
-      </p>
-    {% endif %}
   {% endfor %}
 {% endif %}
 
@@ -61,18 +47,5 @@ author_profile: true
   <hr />
   {% for post in co_authored %}
     {% include archive-single.html %}
-
-    <!-- Links on one line (exclude Download Paper, keep OSF/GitHub) -->
-    {% if post.osfurl or post.githuburl %}
-      <p>
-        {% if post.osfurl %}
-          <a href="{{ post.osfurl }}" target="_blank">OSF Page</a>
-        {% endif %}
-        {% if post.githuburl %}
-          {% if post.osfurl %}&nbsp;&nbsp;&nbsp;{% endif %}
-          <a href="{{ post.githuburl }}" target="_blank">GitHub Analysis</a>
-        {% endif %}
-      </p>
-    {% endif %}
   {% endfor %}
 {% endif %}
