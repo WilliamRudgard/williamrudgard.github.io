@@ -18,6 +18,7 @@ author_profile: true
   Split publications by first-authored vs co-authored
   - First-authored: citation starts with "Rudgard WE"
   - Co-authored: everything else
+  - Display paper/OSF/GitHub links if present
 {% endcomment %}
 
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
@@ -37,6 +38,10 @@ author_profile: true
   <h2>First-authored publications</h2>
   <hr />
   {% for post in first_authored %}
+    <!-- Display citation -->
+    <p>{{ post.citation }}</p>
+
+    <!-- Links -->
     <p>
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}" target="_blank">Download Paper</a>
@@ -55,6 +60,10 @@ author_profile: true
   <h2>Co-authored publications</h2>
   <hr />
   {% for post in co_authored %}
+    <!-- Display citation -->
+    <p>{{ post.citation }}</p>
+
+    <!-- Links -->
     <p>
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}" target="_blank">Download Paper</a>
