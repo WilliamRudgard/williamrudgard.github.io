@@ -65,32 +65,18 @@
   <p>Recommended citation: {{ post.citation }}</p>
 {% endif %}
 
-{% assign links = "" %}
-
 {% if post.paperurl %}
-  {% assign links = links | append: '<a href="' | append: post.paperurl | append: '" target="_blank">Download Paper</a>' %}
+  <p><a href="{{ post.paperurl }}" target="_blank">Download Paper</a></p>
 {% endif %}
 
-{% if post.osfurl %}
-  {% if links != "" %}
-    {% assign links = links | append: '&nbsp;&nbsp;&nbsp;' %}
-  {% endif %}
-  {% assign links = links | append: '<a href="' | append: post.osfurl | append: '" target="_blank">OSF Page</a>' %}
-{% endif %}
-
-{% if post.githuburl %}
-  {% if links != "" %}
-    {% assign links = links | append: '&nbsp;&nbsp;&nbsp;' %}
-  {% endif %}
-  {% assign links = links | append: '<a href="' | append: post.githuburl | append: '" target="_blank">GitHub Analysis</a>' %}
-{% endif %}
-
-{% if links != "" %}
+{% if post.osfurl or post.githuburl %}
   <p>
-    {% if post.paperurl %}
-      {{ links | replace: '<a href="' | append: post.paperurl, '<br><a href="' | append: post.paperurl }}
-    {% else %}
-      {{ links }}
+    {% if post.osfurl %}
+      <a href="{{ post.osfurl }}" target="_blank">OSF Page</a>
+    {% endif %}
+    {% if post.githuburl %}
+      {% if post.osfurl %}&nbsp;&nbsp;&nbsp;{% endif %}
+      <a href="{{ post.githuburl }}" target="_blank">GitHub Analysis</a>
     {% endif %}
   </p>
 {% endif %}
