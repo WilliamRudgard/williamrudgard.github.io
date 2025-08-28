@@ -65,12 +65,11 @@
   <p>Recommended citation: {{ post.citation }}</p>
 {% endif %}
 
-{% if post.paperurl %}
-  <p><a href="{{ post.paperurl }}" target="_blank">Download Paper</a></p>
-{% endif %}
-
-{% if post.osfurl or post.githuburl %}
+{% if post.paperurl or post.osfurl or post.githuburl %}
   <p>
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" target="_blank">Download Paper</a><br>
+    {% endif %}
     {% if post.osfurl %}
       <a href="{{ post.osfurl }}" target="_blank">OSF Page</a>
     {% endif %}
