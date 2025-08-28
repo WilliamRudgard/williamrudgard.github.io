@@ -68,13 +68,14 @@
 {% if post.paperurl or post.osfurl or post.githuburl %}
   <p>
     {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" target="_blank">Download Paper</a><br>
+      <a href="{{ post.paperurl }}" target="_blank">Download Paper</a>
     {% endif %}
     {% if post.osfurl %}
+      {% if post.paperurl %}&nbsp;&nbsp;&nbsp;{% endif %}
       <a href="{{ post.osfurl }}" target="_blank">OSF Page</a>
     {% endif %}
     {% if post.githuburl %}
-      {% if post.osfurl %}&nbsp;&nbsp;&nbsp;{% endif %}
+      {% if post.paperurl or post.osfurl %}&nbsp;&nbsp;&nbsp;{% endif %}
       <a href="{{ post.githuburl }}" target="_blank">GitHub Analysis</a>
     {% endif %}
   </p>
