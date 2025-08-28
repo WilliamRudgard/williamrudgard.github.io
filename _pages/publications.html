@@ -37,7 +37,10 @@ author_profile: true
   <h2>First-authored publications</h2>
   <hr />
   {% for post in first_authored %}
-    {% include archive-single.html %}
+    <p>{{ post.citation | replace: "Rudgard WE", "<strong>Rudgard WE</strong>" }}</p>
+    {% if post.paperurl %}
+      <p><a href="{{ post.paperurl }}" target="_blank">Read full paper</a></p>
+    {% endif %}
   {% endfor %}
 {% endif %}
 
@@ -45,9 +48,9 @@ author_profile: true
   <h2>Co-authored publications</h2>
   <hr />
   {% for post in co_authored %}
-    {% include archive-single.html %}
+    <p>{{ post.citation | replace: "Rudgard WE", "<strong>Rudgard WE</strong>" }}</p>
+    {% if post.paperurl %}
+      <p><a href="{{ post.paperurl }}" target="_blank">Read full paper</a></p>
+    {% endif %}
   {% endfor %}
 {% endif %}
-
-
-
