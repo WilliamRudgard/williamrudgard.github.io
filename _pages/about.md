@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior postdoctoral researcher in global health at the University of Oxford’s Department of Social Policy and Intervention ([DSPI](https://www.spi.ox.ac.uk/)), a Research Associate at the Centre for Social Science Research, University of Cape Town, and a Research Fellow at Nuffield College, Oxford. 
+I am a senior postdoctoral researcher in global health at the University of Oxford’s Department of Social Policy and Intervention ([DSPI](https://www.spi.ox.ac.uk/)), a Research Associate at the University of Cape Town's Centre for Social Science Research ([CSSR](https://humanities.uct.ac.za/cssr)), and a Research Fellow at Nuffield College, Oxford. 
 
 I specialise in social interventions to improve child and adolescent wellbeing in Africa, with a particular focus on cash transfers and community health workers.
 
