@@ -7,12 +7,15 @@ author_profile: true
 
 {% include base_path %}
 
-{%- comment -%}
-Sort all teaching entries first by start_date (oldest → newest),
-then by end_date (oldest → newest).
-{%- endcomment -%}
+{%- assign normalized = "" | split: "" -%}
+{% for post in site.teaching %}
+  {% assign end_val = post.end_date | default: post.start_date %}
+  {% assign dummy = post | merge: post %}
+  {% assign dummy = dummy | merge: hash, "end_val", end_val %}
+  {% assign normalized = normalized | push: dummy %}
+{% endfor %}
 
-{% assign sorted = site.teaching | sort: "end_date" | sort: "start_date" %}
+{% assign sorted = normalized | sort: "end_val" | sort: "start_date" %}
 {% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
