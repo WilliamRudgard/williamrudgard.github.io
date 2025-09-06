@@ -7,7 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign sorted_teaching = site.teaching | sort: "end" | reverse %}
-{% for post in sorted_teaching %}
+{%- comment -%}
+Sort all teaching entries first by start_date (oldest → newest),
+then by end_date (oldest → newest).
+{%- endcomment -%}
+
+{% assign sorted = site.teaching | sort: "end_date" | sort: "start_date" %}
+{% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
