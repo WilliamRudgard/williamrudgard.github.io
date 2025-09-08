@@ -7,6 +7,7 @@ venue: "University of Oxford"
 start_date: 2021-01-01
 end_date: 2025-01-01
 location: "Oxford, United Kingdom"
+excerpt: ""
 ---
 Interventions sometimes aim to bring about change at a structural or environmental level rather than through individual behaviour, by altering the context, incentives, or systems that shape choices. Structural interventions are central to debates on the social determinants of health, emphasising that outcomes are shaped not only by individual choices but also by broader social and economic conditions.
 This lecture introduces how to define, theorise, and evalaute structural interventions, applying the Blankenship framework to distinguish structural from individual approaches. Case studies of previously implemented structural interventions illustrate these concepts in practice, while critical perspectives emphasise the importance of anticipating and monitoring potential unintended consequences.
