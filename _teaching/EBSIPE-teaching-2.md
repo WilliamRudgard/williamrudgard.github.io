@@ -8,7 +8,7 @@ start_date: 2021-01-01
 date: 2025-01-01
 end_date: 2025-01-01
 location: "Oxford, United Kingdom"
-excerpt: ""
+excerpt: "This lecture explores structural interventions, using the Blankenship framework to distinguish them from individual approaches, and drawing on case studies and critical perspectives."
 ---
 Interventions sometimes aim to bring about change at a structural or environmental level rather than through individual behaviour, by altering the context, incentives, or systems that shape choices. Structural interventions are central to debates on the social determinants of health, emphasising that outcomes are shaped not only by individual choices but also by broader social and economic conditions.
 
