@@ -8,7 +8,7 @@ start_date: 2022-01-02
 end_date: 2025-01-02
 date: 2025-01-02
 location: "Oxford, United Kingdom"
-excerpt: ""
+excerpt: "This session introduces validity and bias, asking whether a study truly measures what it intends to, and whether its findings can be trusted and applied beyond the study context."
 background: "This lecture explores issues of validity and bias, focusing on whether a study accurately measures its intended concepts and whether its conclusions are credible and applicable beyond the specific study context."
 background: "Evaluation research involves drawing meaningful conclusions from data to ensure findings are reliable and useful for shaping policies and programs. Although most studies focus on specific local settings, their results often aim to address broader questions and challenges. This lecture highlights the importance of planning studies carefully, analysing data thoroughly, and interpreting results thoughtfully to ensure accurate and trustworthy conclusions.
 
