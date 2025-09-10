@@ -9,7 +9,7 @@ start_date: 2022-01-02
 end_date: 2025-01-02
 date: 2025-01-02
 location: "Oxford, United Kingdom"
-excerpt: "This session introduces validity and bias, asking whether a study truly measures what it intends to, and whether its findings can be trusted and applied beyond the study context."
+excerpt: "This lecture introduces validity and bias, asking whether a study truly measures what it intends to, and whether its findings can be trusted and applied beyond the study context."
 ---
 Evaluation research aims to draw meaningful, trustworthy conclusions from data to inform policies and programs. Validity refers to the extent to which research accurately measures what it intends to measure. Errors in research can be systematic, producing bias that consistently distorts findings (e.g., selection, information, or confounding bias), or random, arising from chance variation such as sampling error or measurement imprecision. These two types of error have distinct consequences for interpretation.
 
