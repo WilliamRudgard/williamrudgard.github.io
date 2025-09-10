@@ -1,6 +1,7 @@
 ---
 title: "Social Determinants of Tuberculosis"
 collection: teaching
+categories: ["Lectures"]
 type: "MSc in International Health and Tropical Medicine"
 permalink: /teaching/IHTM-teaching-1
 venue: "University of Oxford"
