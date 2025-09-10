@@ -1,5 +1,5 @@
 ---
-title: "Propensity Score Analysis – Quasi-Experimental Designs"
+title: "Propensity Score Analysis"
 collection: teaching
 categories: ["Professional Training"]
 type: "Training"
