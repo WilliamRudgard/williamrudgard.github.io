@@ -1,6 +1,7 @@
 ---
 title: "Structural Interventions"
 collection: teaching
+categories: ["Lectures"]
 type: "MSc in Evidence Based Social Interventions and Social Policy Evaluation"
 permalink: /teaching/EBSIPE-teaching-2
 venue: "University of Oxford"
